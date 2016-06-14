@@ -24,6 +24,8 @@ public class MainActivity extends Activity implements OnItemClickListener, OnDis
     private AlertView mAlertViewExt;//窗口拓展例子
     private EditText etName;//拓展View内容
     private InputMethodManager imm;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
